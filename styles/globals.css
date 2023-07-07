@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+    background-color: white;
+    color: var(--ash-gray);
+}
+  
+h1 {
+    color: var(--eggplant);
+}
+  
+.button {
+    background-color: var(--dark-slate-gray);
+    color: var(--mountbatten-pink);  
+}
+
+.custom-hamburger {
+    padding-right: 10px !important; /* Adjust as needed */
+    margin-right: -150px
+}
+
+.player-wrapper {
+    position: relative;
+    padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
+}
+  
+.react-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+  
